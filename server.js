@@ -19,7 +19,7 @@ db.once('open', () => console.log('DB connected ...'));
 
 global.appRoot = path.resolve(__dirname);
 const corsOptions = {
-    origin: 'https://ramanuj.vercel.app/',
+    origin: 'https://ramanuj.vercel.app',
     credentials: true,
     optionSuccessStatus: 200
 }
